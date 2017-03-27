@@ -41,3 +41,6 @@ git reset --hard HEAD^
 git reset --hard 版本号
 
 #找不到版本号的话，git reflog查看命令记录，在记录中看版本号
+
+#撤销修改
+git checkout -- filename
