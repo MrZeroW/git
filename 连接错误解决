@@ -1,0 +1,8 @@
+#git clone出错
+rm -i .ssh/known_lists
+ssh -T git@github.com
+#如果提示sign_and_send_pubkey: signing failed: agent refused operation
+#执行以下
+eval "$(ssh-agent -s)"
+ssh-add
+ssh -T git@github.com
