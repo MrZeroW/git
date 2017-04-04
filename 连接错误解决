@@ -1,4 +1,8 @@
 #git clone出错
+1.
+ssh-add .ssh/id_rsa.pub
+ssh -T git@github.com
+2.还是不行的话
 rm -i .ssh/known_lists
 ssh -T git@github.com
 #如果提示sign_and_send_pubkey: signing failed: agent refused operation
