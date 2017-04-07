@@ -1,4 +1,13 @@
 #git clone出错
+
+#管理员身份登录ssh
+ssh-agent -s
+#列出添加的公钥名单
+ssh-add -l
+ssh-add .ssh/xxxx
+ssh -v git@github.com
+##注意
+git clone 时一定能sudo!!!!权限问题
 0.
 ssh -T git@github.com
 1.
