@@ -1,4 +1,6 @@
 #git clone出错
+0.
+ssh -T git@github.com
 1.
 ssh-add .ssh/id_rsa.pub
 ssh -T git@github.com
