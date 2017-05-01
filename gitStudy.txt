@@ -48,4 +48,4 @@ git checkout -- filename
 #查看单一文件夹的内容
 url = xx/xxxx/xxx/master/xxxx
 #将master换为trunk
-svn checjoyt url
+svn checkout url
