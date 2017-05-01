@@ -46,6 +46,6 @@ git reset --hard 版本号
 git checkout -- filename
 
 #查看单一文件夹的内容
-url = xx/xxxx/xxx/master/xxxx
-#将master换为trunk
+url = xx/xxxx/tree/master/xxxx
+#将tree/master换为trunk
 svn checkout url
